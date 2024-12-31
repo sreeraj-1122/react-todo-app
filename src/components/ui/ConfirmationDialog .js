@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ConfirmationDialog = ({ isVisible, onConfirm, onCancel }) => {
-  if (!isVisible) return null; // Don't render if not visible
+  if (!isVisible) return null; 
 
   return (
     <div className="confirmation-dialog">
